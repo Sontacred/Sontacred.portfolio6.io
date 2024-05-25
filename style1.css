@@ -60,7 +60,7 @@ body{
     padding: 10px;
     align-items: center;
     margin-left: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .element{
@@ -81,11 +81,11 @@ body{
 .box{
     position: relative;
     background: #4b4b4b;
-    width: 350px;
+    width: 100%;
     height: 350px;
     margin: 5px;
     right: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 100ms;
 }
 .box:hover{
@@ -103,7 +103,7 @@ body{
     margin-top: 5px;
     margin-bottom: 10px;
     right: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 170ms;
 }
 .project:hover{
@@ -146,7 +146,8 @@ body{
     font-size: 50px;
     width: 100%;
     height: fit-content;
-    margin: 90px;
+    margin-top: 90px;
+    margin-bottom: 30px;
     margin-left: 0;
 }
 

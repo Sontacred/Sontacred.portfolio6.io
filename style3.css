@@ -73,7 +73,7 @@ body{
     width: 100%;
     height: fit-content;
     right: 0;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .box{
@@ -83,7 +83,7 @@ body{
     height: 350px;
     margin: 5px;
     right: 0;
-    border-radius: 40px;
+    border-radius: 10px;
     transition: 100ms;
 }
 .box:hover{
