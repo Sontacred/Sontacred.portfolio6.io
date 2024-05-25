@@ -33,6 +33,10 @@ a{
     background: none;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 /* --------------- CONTENT --------------- */
 
 body{
@@ -52,10 +56,11 @@ body{
     font-size: 20px;
     min-height: 300px;
     height: fit-content;
-    max-width: 80%;
+    max-width: 85%;
     padding: 10px;
     align-items: center;
-    margin: 200px auto;
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
 
 .element{
@@ -76,11 +81,11 @@ body{
 .box{
     position: relative;
     background: #4b4b4b;
-    width: 100%;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     margin: 5px;
     right: 0;
-    border-radius: 40px;
+    border-radius: 20px;
     transition: 100ms;
 }
 .box:hover{
@@ -98,7 +103,7 @@ body{
     margin-top: 5px;
     margin-bottom: 10px;
     right: 0;
-    border-radius: 40px;
+    border-radius: 20px;
     transition: 170ms;
 }
 .project:hover{
@@ -138,32 +143,32 @@ body{
 .element-H{
     z-index: 3;
     background: none;
-    font-size: 80px;
+    font-size: 50px;
     width: 100%;
     height: fit-content;
     margin: 90px;
+    margin-left: 0;
 }
 
 .element-T{
     z-index: 3;
     background: none;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     width: fit-content;
     height: fit-content;
-    margin: 90px;
+    margin: 0;
 }
 
 /* --------------- HEADER --------------- */
 
 header{
-    position: sticky;
     display: block;
     font-size: 30px;
     padding: 10px;
     border-radius: 8px;
     min-width: 750px;
-    height: 30px;
+    height: fit-content;
     margin: 16px auto;
 }
 
@@ -187,9 +192,7 @@ header{
     background: none;
     color: #afafaf;
     float: right;
-    margin-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
     padding: 8px;
     font-size: 20px;
     border-radius: 8px;
@@ -208,5 +211,6 @@ footer{
     background: none;
     text-align: center;
     font-size: 15px;
+    margin-top: 100px;
     padding: 15px;
 }
