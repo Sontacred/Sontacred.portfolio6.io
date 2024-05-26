@@ -162,6 +162,17 @@ body{
     margin-left: 0;
 }
 
+.element-H2{
+    z-index: 3;
+    background: none;
+    font-size: 50px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
 .element-T{
     z-index: 3;
     background: none;
