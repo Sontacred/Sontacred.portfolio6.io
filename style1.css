@@ -73,7 +73,6 @@ body{
     width: 100%;
     height: fit-content;
     margin-top: 30px;
-    margin-bottom: 30px;
     right: 0;
     border-radius: 40px;
 }
@@ -136,6 +135,26 @@ body{
 .banner:hover{
     opacity: 100%;
     transition: 170ms;
+}
+
+.btn-P{
+    background: none;
+    color: #afafaf;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 170ms;
+}
+.btn-P:hover{
+    background-color: #7e7e7e;
+    color: #ffffff;
+    transition: 170ms;
+    border-radius: 8px;
 }
 
 /* --------------- DIV --------------- */
