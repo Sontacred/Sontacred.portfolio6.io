@@ -26,13 +26,13 @@ h2{
 }
 
 img{
+    background: none;
     border-radius: 10px;
     z-index: -1;
 }
 
 
 .link{
-    margin: 20px;
     transition: 100ms;
 }
 .link:hover{
@@ -81,7 +81,6 @@ body{
     position: relative;
     background: none;
     font-size: 20px;
-    min-height: 300px;
     height: fit-content;
     max-width: 100%;
     padding: 10px;
@@ -99,8 +98,6 @@ body{
     background: none;
     width: 100%;
     height: fit-content;
-    margin-top: 0px;
-    margin-bottom: 30px;
     right: 0;
     font-size: 40px;
 }
