@@ -115,23 +115,12 @@ body{
 }
 
 .banner{
-    opacity: 0%;
     z-index: 99999;
-    position: fixed;
-    background: #FED018;
-    color: #000000;
+    color: #FED018;
     text-align: center;
-    font-size: 20px;
     font-weight: bold;
-    padding: 20px;
-    width: 98.5%;
-    height: 60px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    bottom: 0;
-    border-radius: 100px;
     align-items: center;
-    transition: 170ms;
+    margin: 10px;
 }
 .banner:hover{
     opacity: 100%;
