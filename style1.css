@@ -56,10 +56,11 @@ body{
     font-size: 20px;
     min-height: 300px;
     height: fit-content;
-    max-width: 85%;
+    max-width: 100%;
     padding: 10px;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 40px;
 }
 
@@ -144,7 +145,6 @@ body{
     margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 20px;
-    margin-right: 20px;
     padding: 8px;
     font-size: 20px;
     border-radius: 8px;
