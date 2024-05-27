@@ -102,7 +102,7 @@ body{
     margin: 10px;
 }
 .banner:hover{
-    opacity: 100%;
+    color: #FF5757;
     transition: 170ms;
 }
 
