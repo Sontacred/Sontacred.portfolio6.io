@@ -24,6 +24,14 @@ h2{
     margin: 30px;
 }
 
+h3{
+    position: absolute;
+    background: none;
+    margin: 40px;
+    font-size: 30px;
+    bottom: 0;
+}
+
 img{
     border-radius: 40px;
     z-index: -1;
